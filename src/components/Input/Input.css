@@ -8,7 +8,7 @@
 }
 
 label {
-    padding: 0.5rem 0rem 0.5rem 0rem;
+    padding    : 0.5rem 0rem 0.5rem 0rem;
     font-weight: bolder;
     width      : 12%;
     padding    : 0.5rem;
@@ -17,7 +17,13 @@ label {
 }
 
 input {
-    width: 80%;
+    width     : 80%;
+    min-height: 1.5rem;
+}
+
+textarea {
+    width     : 80%;
+    min-height: 3rem;
 }
 
 .error {

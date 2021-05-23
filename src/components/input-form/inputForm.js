@@ -99,7 +99,7 @@ export default function InputForm(props) {
       value: inputs.phone,
     },
     {
-      type: "text",
+      type: "textarea",
       required: true,
       name: "address",
       handleInputChange: handleInputChange,
