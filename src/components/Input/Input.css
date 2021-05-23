@@ -1,0 +1,27 @@
+.name-row,
+.email-row,
+.phone-row,
+.address-row {
+    padding  : 1rem;
+    display  : flex;
+    flex-wrap: wrap;
+}
+
+label {
+    padding: 0.5rem 0rem 0.5rem 0rem;
+    font-weight: bolder;
+    width      : 12%;
+    padding    : 0.5rem;
+    height     : fit-content;
+    min-height : 1rem;
+}
+
+input {
+    width: 80%;
+}
+
+.error {
+    color    : red;
+    font-size: small;
+    width    : 80%;
+}

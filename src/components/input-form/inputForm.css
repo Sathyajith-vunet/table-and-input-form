@@ -1,0 +1,47 @@
+.form-wrapper {
+    display: flex;
+    padding: 4rem;
+}
+
+.input-section {
+    display        : flex;
+    align-items    : center;
+    justify-content: center;
+    width          : 50%;
+}
+
+.input-form {
+    display        : flex;
+    justify-content: center;
+    align-items    : flex-start;
+    flex-direction : column;
+    width          : 70%;
+    border-right   : 1px solid black;
+}
+
+.output-section {
+    width: 50%;
+}
+
+.submit-button {
+    margin          : 0.5rem 0rem 0.5rem 0rem;
+    padding         : 0.3rem;
+    border-radius   : 1rem;
+    background-color: green;
+    color           : white;
+    cursor: pointer;
+    width: fit-content;
+}
+
+.submit-button:disabled {
+    background-color: lightgray;
+    color           : black;
+    cursor: not-allowed;
+}
+
+.form-actions {
+    display        : flex;
+    justify-content: flex-end;
+    width          : 80%;
+    padding-top    : 2rem;
+}

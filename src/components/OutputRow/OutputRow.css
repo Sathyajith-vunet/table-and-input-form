@@ -1,0 +1,16 @@
+.key {
+    font-weight: bolder;
+    width      : 12%;
+    padding    : 0.5rem;
+    height     : fit-content;
+    min-height : 1rem;
+}
+
+.value {
+    background-color: lightgray;
+    width           : 70%;
+    padding         : 0.5rem;
+    height          : fit-content;
+    min-height      : 1rem;
+    border-radius   : 0.5rem;
+}
